@@ -180,7 +180,7 @@ const SingleProduct = () => {
                   </div>
 
                 </div>
-                {orderedProduct && <div>
+                {setOrderedProduct(!orderedProduct) && <div>
                   <a href='/' className='text-dark text-decoration-underline'>Write a review</a>
                 </div>}
               </div>
